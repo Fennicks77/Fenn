@@ -1,28 +1,25 @@
-/*body {
+body {
     font-family: TimesNewRoman, Tahoma;
-    background-color: #A9A9A9;
-    border: 1px solid #808080;
-    margin: 150px;
-    padding: 150px;
-    margin-left: 500px;
-    margin-right: 500px
-}
-h2, ul {
-    text-align: center;
-}
-ul.list {
-    margin: 0;
-    padding: 4px
+    background-image: url(reWalls.com_28868.jpg);
 }
 ul.list li {
     display: inline;
     margin-right: 5px;
-    border: 1px solid #A9A9A9;
+
     padding: 3px
 }
-*/
 .main {
+    text-align: center;
     width: 800px;
-    border: 1px solid black;
-    margin: 0 auto;
+  
+    margin: auto;
+    padding: auto 0;
+    margin-top: 150px;
+}
+img {
+    margin-left: 40px;
+}
+.inf {
+
+    margin-top: 50px;
 }
