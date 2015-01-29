@@ -8,16 +8,17 @@
   </head>
   <body>
     <div id="main"> 
-      <img src="./to-do-list.png" width="150px" height="130px">
-      <h1 class="h1">  </h1>
+      <h1 class="h1"><span class="glyphicon glyphicon-th-list" /> Todolist</h1>
         <div class="form_wrapper input-group">
           <input type="text" name="123" placeholder="What to do?" autofocus required size="27" class="form-control" />
-            <span class="input-group-btn"><button class="btn btn-default" type="button">Go!</button></span>
+            <span class="input-group-btn">
+              <button class="btn btn-primary"><span class="glyphicon glyphicon-ok" /></button>
+            </span>
         </div>    
         <ul class="list">
-          <li><input type="checkbox">Milk</li>
-          <li><input type="checkbox">Bread</li>
-          <li><input type="checkbox">Cheese</li>
+          <li><input type="checkbox" id="checkbox1"><label for="checkbox1">Milk</label></li>
+          <li><input type="checkbox" id="checkbox2"><label for="checkbox2">Bread</label></li>
+          <li><input type="checkbox" id="checkbox3"><label for="checkbox3">Cheese</label></li>
         </ul>      
   </body>
 </html>
