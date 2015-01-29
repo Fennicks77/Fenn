@@ -1,6 +1,9 @@
 body {
     font-family: TimesNewRoman, Tahoma;
     background-image: url(reWalls.com_28868.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 ul.list li {
     display: inline;
