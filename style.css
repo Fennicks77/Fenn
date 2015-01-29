@@ -8,13 +8,14 @@ body {
     padding: 0;
 }
 ul.list li {
-    display: inline;
+    list-style: none;
     margin-right: 5px;
-    padding: 3px
+    padding: 3px;
+    text-align: left;
 }
 .main {
     text-align: center;
-    width: 800px;
+    width: 360px;
   
     margin: auto;
     padding: auto 0;
@@ -36,4 +37,7 @@ img {
     position: fixed;
     bottom: 0;
     background-color: #D3D3D3
+}
+.form_wrapper {
+    border: 1px solid black;
 }
