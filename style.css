@@ -35,3 +35,13 @@ label{
     font-size: 14pt;
     margin-left: 5px;
 }
+#checkbox1:checked + label {
+    color: white;
+    font-style: italic;
+}
+#checkbox2:checked + label {
+    color: white;
+}
+#checkbox3:checked + label {
+    color: white;
+}
